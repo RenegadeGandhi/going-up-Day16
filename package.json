@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RenegadeGandhi/going-up-Day16.git"
@@ -19,6 +23,10 @@
   "homepage": "https://github.com/RenegadeGandhi/going-up-Day16#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "heroku": "^7.41.1",
     "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.16.1"
   }
 }
